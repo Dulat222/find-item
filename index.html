@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.apple{
+			background: url(apple.webp);
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			top: 1270px;
+			left: 160px;
+			background-size: 100%;
+		}
+		.pshen{
+			background: url(pshen.webp);
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			top: 1270px;
+			left: 600px;
+			background-size: 100%;
+		}
+		.slit{
+			background: url(slit.webp);
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			top: 940px;
+			left: 1090px;
+			background-size: 100%;
+		}
+		.arbuz{
+			background: url(arbuz.webp);
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			top: 780px;
+			left: 60px;
+			background-size: 100%;
+		}
+		.kozha{
+			background: url(kozha.webp);
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			top: 1130px;
+			left: 1600px;
+			background-size: 100%;
+		}
+	</style>
+</head>
+<body>
+
+
+
+<div>
+	<h1>Найди предметы на карте</h1>
+	<h1 class="text1">1)Яблоко</h1>
+	<h1 class="text2">2)Пщеница</h1>
+	<h1 class="text3">3)Железный слиток</h1>
+	<h1 class="text4">4)Арбуз</h1>
+	<h1 class="text5">5)Кожа</h1>
+
+	<img src="minecraft.jpg">
+</div>
+<div class="apple"></div>
+<div class="pshen"></div>
+<div class="slit"></div>
+<div class="arbuz"></div>
+<div class="kozha"></div>
+
+
+
+
+
+
+<script type="text/javascript">
+	document.querySelector(".apple").onclick = function(){
+		document.querySelector(".apple").style.display = ("none")
+		document.querySelector(".text1").style.textDecoration = ("line-through")
+		alert("Молодец нашёл!!!")
+	}
+	document.querySelector(".pshen").onclick = function(){
+		document.querySelector(".pshen").style.display = ("none")
+		document.querySelector(".text2").style.textDecoration = ("line-through")
+		alert("Молодец нашёл!!!")
+	}
+	document.querySelector(".slit").onclick = function(){
+		document.querySelector(".slit").style.display = ("none")
+		document.querySelector(".text3").style.textDecoration = ("line-through")
+		alert("Молодец нашёл!!!")
+	}
+	document.querySelector(".arbuz").onclick = function(){
+		document.querySelector(".arbuz").style.display = ("none")
+		document.querySelector(".text4").style.textDecoration = ("line-through")
+		alert("Молодец нашёл!!!")
+	}
+	document.querySelector(".kozha").onclick = function(){
+		document.querySelector(".kozha").style.display = ("none")
+		document.querySelector(".text5").style.textDecoration = ("line-through")
+		alert("Молодец нашёл!!!")
+	}
+</script>
+
+
+</body>
+</html>
